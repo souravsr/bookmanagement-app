@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "bookmanagement-app-image"
         DOCKER_TAG   = "latest"
-        DOCKER_HUB_REPO = "<dockerhub-username>/bookmanagement-app"
+        DOCKER_HUB_REPO = "souravsr/bookmanagement-app"
         CONTAINER_NAME = "usermanagementpipeline-usermanagement-application-1"
     }
 
